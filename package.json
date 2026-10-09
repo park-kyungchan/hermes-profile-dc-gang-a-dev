@@ -1,0 +1,20 @@
+{
+  "name": "hermes-profile-dc-gang-a-dev",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Source-only two-source teacher clinic review workbench with synthetic adapters",
+  "license": "UNLICENSED",
+  "packageManager": "bun@1.4.2",
+  "engines": { "bun": "1.4.2" },
+  "scripts": {
+    "test": "bun test tests",
+    "typecheck": "bun node_modules/typescript/bin/tsc --noEmit -p tsconfig.json",
+    "build": "bun run scripts/build.ts",
+    "demo": "bun run scripts/demo.ts",
+    "check": "bun run test && bun run typecheck && bun run build && bun run check:bundle && bun run demo",
+    "check:bundle": "bun run scripts/checkBundle.ts"
+  },
+  "dependencies": { "zod": "4.6.5" },
+  "devDependencies": { "typescript": "7.0.2", "@types/bun": "1.4.2", "@types/node": "26.6.4" }
+}

@@ -1,0 +1,15 @@
+{
+  "productCode": { "ownership": "Original user/owner; all rights reserved", "newPermissiveLicenseGranted": false },
+  "dependencyImplementationsBundledInSource": false,
+  "fontsImported": false,
+  "dependencies": [
+    { "name": "zod", "version": "4.6.5", "license": "MIT", "role": "Runtime strict validation" },
+    { "name": "typescript", "version": "7.0.2", "license": "Apache-2.0", "role": "Development compiler" },
+    { "name": "@typescript/typescript-linux-x64", "version": "7.0.2", "license": "Apache-2.0", "role": "Compiler platform dependency selected by installed Linux environment" },
+    { "name": "@types/bun", "version": "1.4.2", "license": "MIT", "role": "Development declarations" },
+    { "name": "bun-types", "version": "1.4.2", "license": "MIT", "role": "Development declarations" },
+    { "name": "@types/node", "version": "26.6.4", "license": "MIT", "role": "Development declarations" },
+    { "name": "undici-types", "version": "8.9.0", "license": "MIT", "role": "Transitive development declarations" }
+  ],
+  "licenseRetention": "Dependency installations retain their published licenses. Selected license texts are also preserved under third-party/; these terms do not license original product code. No OFL font asset is included."
+}
